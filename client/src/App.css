@@ -15,6 +15,12 @@
   --muted-color-200: rgb(166, 202, 202);
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   font-family: kanit;
   padding: 50px;
