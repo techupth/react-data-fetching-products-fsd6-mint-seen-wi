@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {dataFetcher()}, [])
 
   const deleteList = async (id) => {
-    const deleteData = await axios.delete(`http://localhost:4001/products/${id}`);
+    await axios.delete(`http://localhost:4001/products/${id}`);
     dataFetcher();
   }
 
