@@ -156,3 +156,11 @@ button {
   outline: none;
   border: 5px solid var(--secondary-color);
 }
+
+.loading-message {
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+  margin-top: 10vh;
+  font-size: 10vw;
+}
